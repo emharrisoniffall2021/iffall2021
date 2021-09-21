@@ -1,0 +1,108 @@
+html{
+    font-family: 'Merriweather', serif;
+    margin-left: 8%;
+    font-size: 18pt;
+    color: #444444;
+}
+
+.merri{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    line-height: 15px;
+    color: #8fbc8f;
+}
+
+.subtitle{
+    font-size: 15pt;
+}
+
+h1{
+    font-size: 50pt;
+    color: #2e8b57;
+}
+
+h2{
+    font-size: 18pt;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #2e8b57;
+}
+
+h3{
+    font-size: 12pt;
+    color: #8fbc8f;
+    line-height:0;
+}
+
+p{
+    font-size: 18pt;
+}
+
+body{
+    background: color #f9f9ff;
+    padding-top: 40px;
+}
+
+.FontWeight{
+    margin-bottom: 100px;
+}
+
+.boldweight{
+    font-weight: bold;
+}
+
+.FontStyle{
+    margin-bottom: 100px;
+}
+
+.styleitalic{
+    font-style: italic;
+}
+
+.LetterSpace{
+    margin-bottom: 100px;
+}
+
+.space1{
+    letter-spacing: .75em;
+}
+
+.space2{
+    letter-spacing: -0.15em;
+}
+
+.space3{
+    letter-spacing: 30px;
+}
+
+.Decoration{
+    margin-bottom: 100px;
+}
+
+.dec1{
+    text-decoration: underline;
+}
+
+.dec2{
+    text-decoration: line-through;
+}
+
+.dec3{
+    text-decoration: overline;
+}
+
+.Transform{
+    margin-bottom: 100px;
+}
+
+.tf1{
+    text-transform: uppercase;
+}
+
+.tf2{
+    text-transform: lowercase;
+}
+
+.tf3{
+    text-transform: capitalize;
+}
