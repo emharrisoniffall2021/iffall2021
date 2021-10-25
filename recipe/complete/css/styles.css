@@ -1,0 +1,127 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    color: #4d4d4d;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60rem;
+    line-height: 1.4;
+    background-color: #edf2f1;
+}
+
+b{
+    font-weight: 600;
+}
+
+h1 {
+    font-weight: 800;
+    color: #b23300;
+    font-size: 30px;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+
+h2 {
+    font-weight: 800;
+    color: #b23300;
+    font-size: 24px;
+}
+
+.content .column {
+    float: left;
+    padding: 10px;
+}
+  
+.content .left {
+    width: 33%;
+}
+  
+.content .right {
+    width: 66%;
+    margin-left: 3%;
+}
+
+.content .row {
+    display: flex;
+}
+
+li{
+   margin-bottom: 5px;
+}
+
+.content{
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 90%;
+}
+
+.content .row {
+    display: flex;
+    float: left;
+}
+
+.content .right #directions li{
+    margin-bottom: 10px;
+    line-height: 15px;
+}
+
+.content .right #tips {
+    margin-top: 40px;
+}
+
+.content .basicinfo p{
+    font-weight: 400;
+    line-height: 1;
+    margin: 3px;
+}
+
+.content div.basicinfo{
+    margin: 20px 0 10px 0;
+}
+
+.content #source {
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-size: 14px;
+    color: #b23300;
+}
+
+.content #pic1{
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.content .right #directions .step{
+    font-weight: 800;
+    margin: 0;
+}
+
+.content .right #directions .direction{
+    margin-top: 2px;
+    margin-bottom: 25px;
+}
+
+li{
+    margin-left: -23px;
+}
+
+a:visited{
+    color: #556d2f;
+}
+
+@media screen and (max-width: 640px) {
+    h1 {font-size: 1.5rem;}
+    .content .right
+    {width: 100%;
+    margin-left: 0;}
+    .content .left {
+        width: 100%;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+}
